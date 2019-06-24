@@ -23,7 +23,7 @@ class WhereToEat extends Component {
         <Button
           className="WhereToEat"
           size="large"
-          color="primary"
+          color="secondary"
           variant="contained"
           onClick={this.generateResult}
         >

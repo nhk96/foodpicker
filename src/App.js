@@ -30,12 +30,12 @@ class App extends Component {
 
     return (
       <div className="container">
-        <Map center={position} zoom={18} className="MapView">
+        <Map center={position} zoom={17} className="MapView">
           <TileLayer
             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             maxZoom={19}
-            minZoom={17}
+            minZoom={16}
           />
           <Marker position={position} className="currentLocation">
             <Popup>You're here!</Popup>
